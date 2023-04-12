@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-div{
+  width: 100%;
+  height: 60px;
+  background-color: #110226;
+  position: relative;
+  bottom: 15px;
+  color:white;
+  font-family: Times New Roman;
+
+}
+.nav-ul{
+  
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top:25px;
+  list-style: none;
+  font-weight: 700;
+  
+  
+}
+
+
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+.footer{
+  background-color: #61dafb;
+  width:100%;
+  color: white;
+  position: absolute;
+  /* top:435px; */
+  bottom: 0px;
+}
+
+form{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+}
+
+button{
+  border-radius: 10px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchinp{
+  
+  margin-left: 620px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+ 
+}
+
+.signup{
+  border: 2px solid rgb(34, 6, 73);
+  width : 550px;
+  height: 300px;
+  border-radius: 30px;
+  position: relative;
+  top:75px;
+  background-image:linear-gradient(to top,#dbd7d7,#16064e);
+}
+
+.formdiv{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* background-image: url("../grey.jpg"); */
+  
+}
+
+input{
+  height:40px;
+  border-radius: 10px;
+  background-color: #e9e5f5;
+}
+
+.signupback{
+  position:relative;
+  bottom:15px;
+  height:750px;
+  background-image:linear-gradient(to top,#dbd7d7,#16064e);
+}
+.adddiv{
+  position:relative;
+  bottom:15px;
+  height:700px;
+}
+
+.profilediv{
+  border : 2px solid black;
+  position:relative;
+ border-radius: 30px;
+  top : 40px;
+  width: 550px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: rgb(223, 221, 221);
+  
+}
+
+.pdiv{
+  position :relative;
+  top:5px;
+  left:100px;
+  
+}
+.details{
+
+  position: relative;
+  top:30px;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height:50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
