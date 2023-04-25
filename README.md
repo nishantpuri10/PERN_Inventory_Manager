@@ -3,4 +3,6 @@ An app which helps sellers to list , edit , delete their products . Made with PO
 
 WATCH :-
 
-https://user-images.githubusercontent.com/76117268/231446959-ee96334c-a4f8-4b0e-ad6b-ec7f66401cb4.mp4
+https://user-images.githubusercontent.com/76117268/234381297-e3073088-a72a-4d2b-9258-d158fcdd08dc.mp4
+
+
