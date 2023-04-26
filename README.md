@@ -1,5 +1,5 @@
 # PERN_Inventory_Manager
-An app which helps sellers to list , edit , delete their products . Made with POSTGRESQL , NODE , REACT , EXPRESS.
+An app which helps sellers to list , edit , delete their products and store receipt information of multiple buyers. . Made with POSTGRESQL , NODE , REACT , EXPRESS.
 
 WATCH :-
 
