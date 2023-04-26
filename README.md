@@ -3,6 +3,7 @@ An app which helps sellers to list , edit , delete their products and store rece
 
 WATCH :-
 
-https://user-images.githubusercontent.com/76117268/234381297-e3073088-a72a-4d2b-9258-d158fcdd08dc.mp4
+https://user-images.githubusercontent.com/76117268/234675924-40f14a37-0d25-4c7e-a825-04bc9913c408.mp4
+
 
 
