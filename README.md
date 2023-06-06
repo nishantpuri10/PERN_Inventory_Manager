@@ -1,7 +1,5 @@
 # PERN_Inventory_Manager
-WATCH :-
+WATCH ->
 
-https://user-images.githubusercontent.com/76117268/234675924-40f14a37-0d25-4c7e-a825-04bc9913c408.mp4
-
-
+https://github.com/nishantpuri10/PERN_Inventory_Manager/assets/76117268/81c5156b-2368-4680-b228-388918bb5ed6
 
