@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-div{
+  width: 100%;
+  height: 60px;
+  background-color: #22426e;
+  position: relative;
+  bottom: 15px;
+  color:white;
+  font-family: Times New Roman;
+
+}
+.nav-ul{
+  
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top:25px;
+  list-style: none;
+  font-weight: 700;
+  
+  
+}
+
+
+.nav-ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+.footer{
+  background-color: #61dafb;
+  width:100%;
+  color: white;
+  position: absolute;
+  /* top:435px; */
+  bottom: 0px;
+}
+
+form{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+}
+
+button{
+  border-radius: 10px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchinp{
+  
+  margin-left: 620px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+ 
+}
+
+.signup{
+  width : 550px;
+  height: 300px;
+  position: relative;
+  top:75px;
+}
+.signup:hover{
+  background: rgba(225,225,225,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  border-radius: 30px;
+}
+.signup input{
+  display: block;
+  width: 80%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  background: rgba(225,225,225,0.1); 
+}
+
+.signup input::placeholder{
+  color: #fff;
+}
+.signup button{
+  color: #fff;
+  background: #0072ff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+.addproduct{
+  width : 550px;
+  height: 300px;
+  position: relative;
+  top:75px;
+  background-color: #4d5e7f;
+  border-radius: 30px;
+}
+
+.formdiv{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  /* background-image: url("../grey.jpg"); */
+  height:750px;
+
+  
+}
+
+input{
+  height:40px;
+  border-radius: 10px;
+  background-color: #e9e5f5;
+}
+
+.signupback{
+  position:relative;
+  bottom:15px;
+  background-image:linear-gradient(rgba(0,34,76,0.9) , rgba(0,34,76,0.9)),url('D:\html\JavaScript Classwork\PERN\PERN_Inventory_Manager\client\src\Warehouse Inventory Management.jpg');
+  background-size: cover;
+}
+.adddiv{
+  position:relative;
+  bottom:15px;
+  height:750px;
+  background-image:linear-gradient(rgba(0,34,76,0.9) , rgba(0,34,76,0.9)),url('D:\html\JavaScript Classwork\PERN\PERN_Inventory_Manager\client\src\worker-picking-in-fulfillment-warehouse.webp');
+  background-size: cover;
+}
+
+.plist{
+  background-image:linear-gradient(rgba(0,34,76,0.9) , rgba(92, 98, 106, 0.9)),url('D:\html\JavaScript Classwork\PERN\PERN_Inventory_Manager\client\src\Warehouse-1140x600.jpg');
+  /* background-size: cover; */
+  background-size: cover;
+  height:1000px;
+  position:relative;
+  bottom:15px;
+
+}
+
+.profilediv{
+  border : 2px solid black;
+  position:relative;
+ border-radius: 30px;
+  top : 40px;
+  width: 550px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-color: rgb(223, 221, 221);
+  
+}
+
+.pdiv{
+  position :relative;
+  top:5px;
+  left:100px;
+ 
+  
+}
+.details{
+
+  position: relative;
+  top:30px;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height:50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.bill{
+  display: flex;
+  flex-direction: row;
+  color:grey;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+/* img{
+  height:150px;
+  width: 20px;
+} */
+
+.proddiv{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+  justify-content: center;
+}
+.card-text{
+  margin: 2px;
+}
+
+.recform{
+  display: flex;
+  flex-direction: row;
+  
+  background-color: #d5d4d6;
+}
+
+.rec{
+  background-color: #d5d4d6;
+  border:2px solid black;
+}
+
+.rec2{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.my-modal {
+  width: 90vw ;   /* Occupy the 90% of the screen width */
+  max-width : 90vw;
+} 
+
